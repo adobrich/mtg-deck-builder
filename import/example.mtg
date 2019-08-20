@@ -2,15 +2,15 @@
 # You can create multiple files with the `mtg` extension inside the `import` folder and they
 # will all be automatically imported when the program is launched.
 #
-# They format is a comma separated list with no spaces of the form:
+# The format is a comma separated list with no spaces of the form:
 #
 # Set_Code,Language_Code,Collector_Number,Is_Foil,Quantity
 #
 # Where `Set_Code`, `Language_Code` and `Collector_Number` are as they appear on the card.
 # `Is_Foil` is a Boolean value, true if the card is foil, false if it is not.
-# `Quantity` is the number of copies of the card you have in your collection.
+# `Quantity` is the number of copies of the card you wish to add to your collection.
 #
-# For example, to add the English cards "Paradox Engine" in foil and "Teferi's Protection" non foil, you would add the lines:
+# For example, to add the English cards "Paradox Engine" in foil and "Teferi's Protection" non-foil, you would add the lines:
 #
 # AER,EN,169,true,1
 # C17,EN,008,false,1
