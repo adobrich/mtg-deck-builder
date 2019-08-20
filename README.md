@@ -1,2 +1,2 @@
-# mtg-deck-builder
-MTG deck builder and collection manager written in rust
+# MTG Deck Builder
+MTG Deck Builder is a deck builder and collection manager written in rust
