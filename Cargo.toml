@@ -7,3 +7,9 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+failure = "0.1.5"
+log = "0.4.6"
+rusqlite = "0.20.0"
+# TODO: publish this crate to crates.io if it becomes something useful to others.
+scryfall-api = { git = "https://github.com/adobrich/scryfall-api", branch = "master" }
+simplelog = "0.6.0"
