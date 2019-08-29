@@ -1,7 +1,7 @@
 use rusqlite::{Connection, Statement, Result};
 use std::path::{Path, PathBuf};
 
-use log::trace;
+use log::{error, trace};
 
 //
 // TODO: should probably place these files in the users home directory for each platform.
